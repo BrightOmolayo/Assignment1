@@ -3,9 +3,6 @@
     margin: 0;
 }
 
-body{
-    border: 3px solid red;
-}
 
 .wrapper{
     width: 100%;
@@ -75,3 +72,43 @@ img{
     border: 2px thick transparent;
     gap: 5px;
 }
+
+.profilePictures{
+    width: 15%;
+    height: 20px;
+    border-radius: 25px;
+}
+
+.image2{
+    z-index: 1;
+    position: relative;
+    right: 50%;
+}
+
+.profilePicture1{
+    position: relative;
+    left: 85%;
+    top: 2px;
+}
+
+.chatbox1{
+    background-color:#fAC400;
+    border-radius: 20px;
+    width: 45%;
+    height:20px ;
+    color: white;
+    padding: 2%;
+    position: relative;
+    left: 55%;
+    font-size: 85%;
+    bottom: 20px;
+    border-top-right-radius: 0;
+    text-align: center;
+}
+
+.image1{
+    position: relative;
+    left: 58%;
+    bottom:75px;
+}
+
