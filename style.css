@@ -182,5 +182,78 @@ img{
 .Page1 h2{
     position: relative;
     bottom: 5px;
-    font-size: 130%;
+    font-size: 150%;
 }
+.Page1 p{
+    line-height: 150%;
+    padding: 2%;
+}
+
+.button4{
+    background: rgba(146, 136, 178, 0.85);
+    border-radius: 7px;
+    color: #F9F7FF;
+    width: 140px;
+    height: 40px;
+    border:2px solid transparent;
+    position: relative;
+    top: 10px;
+}
+
+.chatImage{
+
+    background: #FFFFFF;
+    box-shadow: 0px 20px 20px 10px rgba(66, 47, 129, 0.25);
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    width: 80%;
+}
+
+.page2{
+    background-color: #E5E5E5;
+    font-family: 'Segoe UI', Tahoma, Geneva,
+    Verdana, sans-serif;
+    color: #43414A;
+    height: 800px;
+    padding-top: 3%;
+    position: relative;
+    top: 40px;
+}
+
+.button5{
+    width: 30%;
+    height: 40px;
+    border-radius: 7px;
+    background-color: #422F81;
+    border:transparent;
+    color: #E5E5E5;
+}
+
+.button6{
+    width: 30%;
+    height: 40px;
+    border-radius: 7px;
+    border: 2px solid #422F81;
+    color: #422F81;
+}
+
+
+.line{
+    height: 0.1px;
+    width: 50%;
+    border: 1px solid rgba(59, 12, 214, 0.2);
+}
+
+.star{
+    font-size: 26px;
+    color: gold;
+    position: relative;
+    width: 50%;
+    height: 50px;
+    padding: 3px;
+
+}
+
