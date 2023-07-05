@@ -278,8 +278,9 @@ img{
 }
 
 .button6{
-    width: 32%;
+    width: 34%;
     height: 40px;
+    padding: 1%;
     border-radius: 7px;
     border: 2px solid #422F81;
     color: #422F81;
