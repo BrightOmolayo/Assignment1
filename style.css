@@ -17,20 +17,34 @@ header ul{
     left: 87%;
     top: 40px;
     color: #E5E5E5;
-  }
+}
 
-  .Links.res{
-    text-align: left;
+.Links.res{
+    padding-left: 10%;
     display: block;
     position: relative;
-  }
+    height: 40%;
+}
   
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+  
+.button1{
+    display: none;
+}
+
 header{
     background-color: #422F81;
     font-family: 'Segoe UI', Tahoma, Geneva,
     Verdana, sans-serif;
     color: #F9F7FF;
-    height: 700px;
+    height: 785px;
 }
 
 .heroText{
@@ -243,6 +257,8 @@ img{
 
 .page2 h2{
     padding: 2%;
+    font-weight: 650;
+    color:#373438;
 }
 .page2 p{
     position: relative;
