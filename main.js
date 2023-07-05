@@ -40,3 +40,13 @@ let box = document.querySelector('.box');
     square1.className="yes";
     box3.insertAdjacentElement("beforeend",square1)
  }
+
+ /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+   var x = document.getElementById("myTopnav");
+   if (x.className === "Links") {
+     x.className += " res";
+   } else {
+     x.className = "Links";
+   }
+ }
