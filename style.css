@@ -377,6 +377,8 @@ footer h4{
         position: relative;
         bottom: 40px;
     }
+
+
  
     header{
         background-color: transparent;
@@ -878,17 +880,11 @@ footer h4{
 
     header ul{
         display: flex;
-        width: 60%;
+        width: 50%;
         position: relative;
-        left: 38%;
-        gap: 5%;
-        margin: 0%;
+        left: 45%;
+        gap: 4%;
         list-style: none;
-        padding: 0.2%;
-    }
-
-    img{
-        width: 100%;
     }
     
     .button1{
@@ -920,35 +916,36 @@ footer h4{
         left: 3.3%;
         width: 12%;
         right: 0%;
-        top: 42px;
+        top: 27px;
         font-family: 'Segoe UI', Tahoma, Geneva,
         Verdana, sans-serif;
         font-weight: lighter;
+        padding: 4% 0% 0% 4%;
     }
     
     .logo b{
-        font-weight: 700;
+        font-weight: 702;
         font-size: x-large;
     } 
     
     
     .chatScreen{
-        width: 50%;
+        margin: 0% auto;
+        width: 16%;
         position: relative;
-        left: 4%;
-        bottom: 60px;
-        height: 500px;
+        left: 22%;
+        padding: 2%;
+        bottom: 530px;
     }
-    
-    
+
     .Vector1{
-        width: 3%;
-        height: 42px;
+        width: 2.6%;
+        height: 40px;
         border-top: 3px solid #f0eff3;
         border-left: 3px solid #c4c2c9;
         position: relative;
-        left: 8.3%;
-        top: 200px;
+        left: 13.3%;
+        top: 240px;
     }
     
     
@@ -956,7 +953,6 @@ footer h4{
         color: #F9F7FF;
         position: relative;
         width: 49%;
-        left: 9.3%;
         top: 156px;
         font-family: 'Segoe UI', Tahoma, Geneva,
         Verdana, sans-serif;
@@ -973,10 +969,9 @@ footer h4{
     .HeroTextPara{
         color: #F9F7FF;
         position: relative;
-        top: 200px;
+        top: 120px;
         font-size: 110%;
         width: 32%;
-        margin-left: 9.3%;
         font-family: 'Segoe UI', Tahoma, Geneva,
         Verdana, sans-serif;
     }
@@ -985,161 +980,115 @@ footer h4{
     .box{
         display: grid;
         height: 90px;
-        width: 17%;
+        width: 8%;
         border: 2px thick transparent;
         gap: 5px;
         position: relative;
-        left: 18%;
-        bottom: 170px;
+        left: 53.3%;
+        bottom: 290px;
     }
     
-    
-    .image2{
-        position: relative;
-        bottom: 317px;
-        left: 23.5%;
-        z-index: 1;
-    }
-    
-    .profilePictures{
-        width: 7%;
-        height: 45px;
-        border-radius: 25px;
-    }
-    
-    
-    .profilePicture1{
-        position: relative;
-        left: 89%;
-        bottom: 200px;
-    }
-    
-    
-    .chatbox1{
-        background-color:#fAC400;
-        border-radius: 20px;
-        width: 16%;
-        height:26px ;
-        color: white;
-        padding: 10px;
-        position: relative;
-        left: 68%;
-        bottom: 250px;
-        border-top-right-radius: 0;
-        text-align: center;
-    }
-    
-    
-    .image1{
-        
-        position: relative;
-        bottom: 130px;
-        left: 28%;
+    .navbar{
+        height: 20px;
     }
     
     
     .box1{
         display: grid;
         height: 90px;
-        width: 15%;
+        width: 8%;
         border: 2px thick transparent;
         gap: 5px;
         position: relative;
-        left:51%;
-        bottom: 370px;
+        left:65%;
         z-index: 0;
+        bottom: 100px;
     }
     
-    
+    .chatbox3{
+        width:25%;
+        bottom: 275px;
+    }
+
     .profilePicture2{
         position: relative;
-        bottom: 368px;
-        left: 10%;
-    }
-    
-    
-    .profilePicture3{
-        position: relative;
-        bottom: 364px;
-        left: 10%;
+        bottom: 260px;
+        right: 68%;
     }
     
     
     .chatbox2{
-        background-color:#fAC400;
-        border-radius: 20px;
-        width: 38%;
-        height:28px ;
-        color: white;
-        padding: 8px;
+        width: 75%;
         position: relative;
-        bottom: 413px;
-        left: 19%;
-        border-top-left-radius: 0;
-        text-align: center;
-        font-size: 85%;
+        bottom: 290px; 
+    }
+    
+    .profilePicture3{
+        position: relative;
+        bottom: 240px;
+        right: 68%;
+    }
+    
+    img{
+        width: 100%;
     }
     
     
-    .chatbox3{
-        background-color:#534f55;
-        width: 10.5%;
-        border-radius: 20px;
-        height: 28px;
-        color:#F9F7FF;
-        padding: 10px;
-        border-top-left-radius: 0;
-        display: flex;
-        position: relative;
-        left: 20%;
-        bottom: 415px;
-        gap: 3.1px;
+    .profilePictures{
+        width: 19%;
+        height: 35px;
+        border-radius: 25px;
     }
     
-    
-    .a{
-        height: 12.5px;
-        width: 12.5px;
-        background-color:#F9F7FF;
-        border-radius: 6px;
+    .image2{
         position: relative;
-        top: 9px;
-        left: 15px;
-    }
-    .b,
-    .c{
-        height: 8px;
-        width: 8px;
-        background-color:#dbdadf;
-        border-radius: 5px;
-        position: relative;
-        top: 12px;
-        left: 15px;
+        right: 50%;
     }
     
+    .profilePicture1{
+        position: relative;
+        left: 125%;
+        top: 80px;
+    }
     
+    .chatbox1{
+        width: 40%;
+        position: relative;
+        left:67%;
+        font-size: 48%;
+        top: 50px ;
+        
+    }
+    
+    .image1{
+        position: relative;
+        left: 60%;
+        bottom:135px;
+    }
     .button2{
         position: relative;
-        width: 11.3%;
+        width: 9%;
         height: 50px;
-        left: 10%;
-        top: 250px;
+        left: 15%;
+        top: 130px;
         border: 1.5px solid transparent;
         background-color: #F9F7FF;
         border-radius: 5px;
+        display: block;
     }
     
     
     .button3{
         position: relative;
-        width: 11.3%;
+        width: 9%;
         height: 50px;
-        left: 12%;
-        top: 250px;
+        left: 25%;
+        top: 80px;
         color: #F9F7FF;
         background-color: transparent;
         border: 1.5px solid #F9F7FF;
         border-radius: 5px;
+        display: block;
     }
     
     
@@ -1217,14 +1166,11 @@ footer h4{
         text-align: center;
         line-height: 200%;
         position: relative;
-        top: 14px;
         color: #43414A;
         margin: 4%;
     }
     
     .button4{
-        position: relative;
-        left: 45%;
         background: rgba(146, 136, 178, 0.85);
         border-radius: 5px;
         color: #F9F7FF;
@@ -1239,7 +1185,7 @@ footer h4{
         font-family: 'Segoe UI', Tahoma, Geneva,
         Verdana, sans-serif;
         color: #43414A;
-        height: 800px;
+        height: 650px;
     }
     
     
@@ -1271,31 +1217,26 @@ footer h4{
     }
     
     .Page2Para{
-        text-align: end;
-        margin-right: 11%;
+        text-align: center;
         position: relative;
         bottom : 330px;
     }
     
     .button5{
-        width: 12%;
+        width: 32%;
         height: 50px;
         border-radius: 5px;
         background-color: #422F81;
         border:transparent;
-        position: relative;
-        left: 50%;
         bottom : 300px;
         color: #E5E5E5;
     }
     
     .button6{
-        width: 12%;
+        width: 32%;
         height: 50px;
         border-radius: 5px;
         border: 2px solid #422F81;
-        position: relative;
-        left: 52.5%;
         color: #422F81;
         bottom : 300px;
     }
@@ -1306,7 +1247,7 @@ footer h4{
         width: 12%;
         position: relative;
         bottom : 250px;
-        left: 51%;
+        left: 31%;
         border: 1px solid rgba(59, 12, 214, 0.2);
     }
     
@@ -1315,7 +1256,7 @@ footer h4{
         color: gold;
         background-color: transparent;
         position: relative;
-        left: 51%;
+        left: 31%;
         width: 30%;
         height: 50px;
         padding: 3px;
@@ -1323,12 +1264,14 @@ footer h4{
     }
     
     
-    
+    .page2Text{
+        float: right;
+    }
     
     .lastPara{
         width: 30%;
         position: relative;
-        left: 65%;
+        left: 45%;
         bottom : 290px;
         font-size: 19%;
     }
@@ -1338,17 +1281,21 @@ footer h4{
     .cta{
         width: 37%;
         position: relative;
-        top:200px;
+        top:50px;
     }
     
-    
-    
+    span{
+        color: #422F81;
+        font-family: 'Segoe UI', Tahoma, Geneva,
+        Verdana, sans-serif;
+    }
     .footerChatapp{
         color: #422F81;
         font-family: 'Segoe UI', Tahoma, Geneva,
         Verdana, sans-serif;
         font-weight: lighter;
         margin: 4% 0% 0% 5%;
+        display: block;
     }
     .footer{
         font-size: 150%;
@@ -1363,6 +1310,7 @@ footer h4{
         width: 80%;
         position: relative;
         left: 5%;
+        padding-top: 17%;
     }
     
     
@@ -1384,5 +1332,8 @@ footer h4{
         left: 5%;
     }
     
-
+    .lastlogo{
+        display: none;
+    }
 }
+
