@@ -867,7 +867,7 @@ footer h4{
 }
 
 
-@media (min-width: 1024px) {
+@media (min-width: 1020px) {
     /* Styles for screens larger than 1200px */
     *{
         padding: 0;
